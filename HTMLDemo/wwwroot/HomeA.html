@@ -1,0 +1,108 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Learn HTML</title>
+    <link= rel="icon" type="image/x-icon" href="Images/VC_World.jpg" />
+    <!--Absolute path ==Full directory path(Eg-E:\Photos\Mahabaleshwar\IMG_1518)
+
+            Relative path
+        -	3 things
+        o	~/  - gives path till root directory
+        o	./ - gives path of current directory
+        o	../ - gives path till parent folder
+
+        Style & class attribute --We use in case of css  -->
+</head>
+<body>
+    <h1>Home A Content</h1>
+    <label style="font-stretch;color:blue; font-display:revert;"><b>Name:</b></label><input type="text" title="Please Enter Name" placeholder="full-name" />
+    <!--<img src="E:\Photos\Mahabaleshwar\IMG_1518" alt="Couple"/> absulate path-->
+    <!--<img src="Images/Vishal.JPG" alt="My Photo" /> Relative path -->
+
+    <label>City:</label>
+    <select>
+        <option>--Select City--</option>
+        <option>Mumbai</option>
+        <option>Pune</option>
+        <option>Satara</option>
+    </select>
+    <br />
+
+    <ul>
+        <li>Vishal</li>
+        <li>Mahesh</li>
+        <li>Akash</li>
+    </ul>
+
+    <br />
+
+    <ol>
+        <li>Vishal</li>
+        <li>Mahesh</li>
+        <li>Akash</li>
+    </ol>
+    <br />
+
+    <dl>
+        <dt>Male</dt>
+        <dd>Akash</dd><!-- Using <dl> we can provide titel in list -->
+        <dd>Vishal</dd>
+
+        <dt>Female</dt>
+        <dd>Vaishali</dd>
+        <dd>Swati</dd>
+        <dd>Swati</dd>
+    </dl>
+    <br />
+    <table border="1">
+        <thead>
+            <tr>
+                <th>RollNumber</th>
+                <th>Name</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Vishal</td>
+                <td rowspan="2">Pune</td>
+            </tr>
+
+            <tr>
+                <td>102</td>
+                <td>Akash</td>
+                <!--<td >Pune</td>-->
+            </tr>
+
+            <tr>
+               <!-- <td colspan="2">103</td>-->
+                <td colspan="2">Mahesh</td>
+                <td>Mumbai</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <h2>Login</h2>
+        <table>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td>Passward</td>
+                <td>
+                    <input type="password" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="button" value=" Login" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
